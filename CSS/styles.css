@@ -303,20 +303,32 @@ section {
     height: 100%;
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(215, 215, 215, 0.7));
     background: linear-gradient(to right, #ebebeb, #f8f4ee);
+    
 }
 
 .hero-content {
-   
+   display: flex;
+   justify-content: space-between;
     position: relative;
     z-index: 2;
-    max-width: 800px;
+    max-width: 90%;
     padding: 2rem;
-    
+
+}
+.divids{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 #malala{
     padding-top:60px ;
-    max-width: 70%;
+    max-width: 40%;
+  
+    border-radius: 10px
 }
+
+
 .hero h1 {
     font-size: 4rem;
     margin-bottom: 1.5rem;
