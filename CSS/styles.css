@@ -1050,3 +1050,20 @@ section {
         flex-direction: column;
     }
 }
+.achievements, .timeline, .timeline-item, .timeline-content {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.container {
+    overflow: visible !important;
+    height: auto !important;
+}
+.achievements, .timeline, .timeline-item, .timeline-content {
+    position: relative;
+    z-index: 10;
+}
+.timeline-content {
+    background: white !important;
+    color: black !important;
+}
